@@ -96,51 +96,60 @@ int main() {
                     ships[i].angle = ships[i].minAngle + (rand() % 20);
                 }
 
-		// Part 1-A Simulation & Hit Detection Logic
-                int b_sunk = 0;
-                int sinking_e_id = -1;
-                int hits_by_b = 0;
+		int k = 10; // Total movement steps
+                float time_step = 1.0; // Time interval per step (e.g., 1 second)
 
-                // Battleship maximum range (at 45 degrees optimal angle)
-                float b_max_range = (B.velocity * B.velocity) / G;
+                for (int step = 0; step < k; step++) {
+                    printf("\n--- Simulation Step %d / %d ---\n", step + 1, k);
 
-                for (int i = 0; i < n; i++) {
-                    // Distance between Battleship and Escort Ship
-                    float dx = ships[i].x - B.x;
-                    float dy = ships[i].y - B.y;
-                    float distance = sqrt(dx * dx + dy * dy);
+                    // 1. Update positions of active Escort Ships
+                    for (int i = 0; i < n; i++) {
+                        if (ships[i].health > 0) {
+                            float rad = ships[i].angle * (PI / 180.0);
+                            ships[i].x += ships[i].velocity * cos(rad) * time_step;
+                            ships[i].y += ships[i].velocity * sin(rad) * time_step;
+                        }
+                    }
 
-                    // Escort ship's attack range
-                    float e_range = calculateRange(ships[i].velocity, ships[i].angle);
+                    // 2. Combat & Cumulative Damage Tracking for this step
+                    float b_max_range = (B.velocity * B.velocity) / G;
+                    int hits_by_b = 0;
 
-                    // Check if Escort ship can hit Battleship (Part 1-A: single hit sinks B)
-                    if (distance <= e_range) {
-                        b_sunk = 1;
-                        sinking_e_id = ships[i].id;
+                    for (int i = 0; i < n; i++) {
+                        if (ships[i].health <= 0) continue; // Skip destroyed escort ships
+
+                        float dx = ships[i].x - B.x;
+                        float dy = ships[i].y - B.y;
+                        float distance = sqrt(dx * dx + dy * dy);
+                        float e_range = calculateRange(ships[i].velocity, ships[i].angle);
+
+                        // Escort hits Battleship (Reduces Battleship Health)
+                        if (distance <= e_range) {
+                            // Using impactPower to reduce health cumulatively
+                            float damage = ships[i].impactPower * 100.0; 
+                            B.health -= damage;
+                            printf("[Hit Alert]: Escort ID: %d (%s) hit Battleship! Damage: %.1f | Battleship Health Left: %.1f\n", 
+                                   ships[i].id, ships[i].type, damage, B.health < 0 ? 0 : B.health);
+                        }
+
+                        // Battleship hits Escort (Reduces Escort Health)
+                        if (distance <= b_max_range) {
+                            hits_by_b++;
+                            ships[i].health -= 25.0; // Battleship hit damage per step
+                            printf("[Attack Alert]: Battleship hit Escort ID: %d (%s)! Escort Health Left: %.1f\n", 
+                                   ships[i].id, ships[i].type, ships[i].health < 0 ? 0 : ships[i].health);
+                        }
+                    }
+
+                    // Check if Battleship is destroyed
+                    if (B.health <= 0) {
+                        printf("\n[Battle Result]: Battleship SANK! Health reached 0 at Step %d.\n", step + 1);
                         break;
                     }
 
-                    // Check if Battleship can hit the Escort ship
-                    if (distance <= b_max_range) {
-                        hits_by_b++;
-                    }
-                }
-
-                // Display Simulation Outcomes
-                if (b_sunk) {
-                    printf("\n[Battle Result]: Battleship SANK! Destroyed by Escort Ship ID: %d\n", sinking_e_id);
-                } else {
-                    printf("\n[Battle Result]: Battleship Survived!\n");
-                    printf("Number of Escort Ships hit by Battleship: %d\n", hits_by_b);
-                }
-
-                // Display generated simulation state
-                printf("\nBattleship Type: %c | Position: (%.2f, %.2f)\n", B.type, B.x, B.y);
-                printf("\nEscort Ships on Battlefield:\n");
-                for (int i = 0; i < n; i++) {
-                    float range = calculateRange(ships[i].velocity, ships[i].angle);
-                    printf("ID: %d | Type: %s | Pos: (%.2f, %.2f) | Range: %.2fm | Impact Power: %.2f\n", 
-                           ships[i].id, ships[i].type, ships[i].x, ships[i].y, range, ships[i].impactPower);
+                    // Display step summary
+                    printf("[Step %d Status]: Battleship Health: %.1f | Escort hits recorded: %d\n", 
+                           step + 1, B.health, hits_by_b);
                 }
 
 		// Save initial battlefield conditions to a text file
