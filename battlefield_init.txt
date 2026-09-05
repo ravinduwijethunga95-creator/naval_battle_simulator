@@ -1,7 +1,7 @@
-Battleship Type: U | Position: (500.00, 500.00)
+Battleship Type: s | Position: (450.00, 657.00)
 Escort Ships Initial Details:
-ID: 1 | Type: EE | Pos: (430.75, 683.23) | Range: 999.12m | Impact Power: 0.04
-ID: 2 | Type: ED | Pos: (497.66, 778.61) | Range: 1593.25m | Impact Power: 0.05
-ID: 3 | Type: EC | Pos: (1261.51, 688.53) | Range: 2512.98m | Impact Power: 0.07
-ID: 4 | Type: ED | Pos: (1283.36, 1290.62) | Range: 3123.79m | Impact Power: 0.05
-ID: 5 | Type: EC | Pos: (1024.75, 780.49) | Range: 2973.47m | Impact Power: 0.07
+ID: 1 | Type: EB | Pos: (981.47, 715.50) | Range: 2870.06m | Impact Power: 0.06
+ID: 2 | Type: EE | Pos: (114.83, 642.29) | Range: 114.69m | Impact Power: 0.04
+ID: 3 | Type: EA | Pos: (1202.22, 706.97) | Range: 2539.95m | Impact Power: 0.08
+ID: 4 | Type: EB | Pos: (992.64, 512.41) | Range: 2096.39m | Impact Power: 0.06
+ID: 5 | Type: EB | Pos: (1453.97, 1285.86) | Range: 3339.16m | Impact Power: 0.06
