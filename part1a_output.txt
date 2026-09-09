@@ -1,0 +1,39 @@
+========================================
+        PART 1-A SIMULATION LOG         
+========================================
+Battleship -> Type: u | Position: (9000.00, 9000.00) | Max Velocity: 700.00
+
+Initial Escort Ships Configuration (Total: 10):
+  - ID: 1 | Type: EA | Pos: (123.70, 325.30) | Max V: 840.00 | Min Ang: 20.00 | Range: 69790.08m
+  - ID: 2 | Type: EE | Pos: (434.90, 963.40) | Max V: 227.00 | Min Ang: 70.00 | Range: 3376.37m
+  - ID: 3 | Type: EC | Pos: (987.70, 516.20) | Max V: 436.00 | Min Ang: 25.00 | Range: 17702.48m
+  - ID: 4 | Type: EC | Pos: (367.00, 4.70) | Max V: 197.00 | Min Ang: 25.00 | Range: 3614.05m
+  - ID: 5 | Type: EC | Pos: (206.50, 845.60) | Max V: 83.00 | Min Ang: 25.00 | Range: 582.19m
+  - ID: 6 | Type: EA | Pos: (140.60, 974.60) | Max V: 840.00 | Min Ang: 20.00 | Range: 60997.22m
+  - ID: 7 | Type: EC | Pos: (21.70, 698.50) | Max V: 454.00 | Min Ang: 25.00 | Range: 19982.46m
+  - ID: 8 | Type: EC | Pos: (443.20, 671.20) | Max V: 469.00 | Min Ang: 25.00 | Range: 20483.63m
+  - ID: 9 | Type: EA | Pos: (762.00, 221.90) | Max V: 840.00 | Min Ang: 20.00 | Range: 49964.42m
+  - ID: 10 | Type: EC | Pos: (605.20, 224.40) | Max V: 424.00 | Min Ang: 25.00 | Range: 17428.86m
+
+----------------------------------------
+Simulation Results & Combat Engagement:
+  -> Escort ID: 1 [EA] HIT and destroyed at Distance 12411.25m
+  -> [CRITICAL]: Battleship was SUNK by Escort ID: 1 [EA]!
+  -> Escort ID: 2 [EE] HIT and destroyed at Distance 11745.12m
+  -> Escort ID: 3 [EC] HIT and destroyed at Distance 11669.27m
+  -> [CRITICAL]: Battleship was SUNK by Escort ID: 3 [EC]!
+  -> Escort ID: 4 [EC] HIT and destroyed at Distance 12467.72m
+  -> Escort ID: 5 [EC] HIT and destroyed at Distance 11992.49m
+  -> Escort ID: 6 [EA] HIT and destroyed at Distance 11953.91m
+  -> [CRITICAL]: Battleship was SUNK by Escort ID: 6 [EA]!
+  -> Escort ID: 7 [EC] HIT and destroyed at Distance 12228.03m
+  -> [CRITICAL]: Battleship was SUNK by Escort ID: 7 [EC]!
+  -> Escort ID: 8 [EC] HIT and destroyed at Distance 11941.01m
+  -> [CRITICAL]: Battleship was SUNK by Escort ID: 8 [EC]!
+  -> Escort ID: 9 [EA] HIT and destroyed at Distance 12038.26m
+  -> [CRITICAL]: Battleship was SUNK by Escort ID: 9 [EA]!
+  -> Escort ID: 10 [EC] HIT and destroyed at Distance 12144.29m
+  -> [CRITICAL]: Battleship was SUNK by Escort ID: 10 [EC]!
+
+----------------------------------------
+Final Outcome: Battleship is GOING TO SINK (Sunk by Escort ID: 10)

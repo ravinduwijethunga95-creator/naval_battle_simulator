@@ -1,0 +1,62 @@
+========================================
+  PART 1-C (1-B SIMULATION 2) CUMULATIVE LOG  
+========================================
+
+--- Step 1 [NORMAL] | Health: 100.0% ---
+  -> Escort ID: 1 [ED] hit | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 1 [ED] | Damage: 5.0% | Health Left: 95.0%
+  -> Escort ID: 2 [EE] hit | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 2 [EE] | Damage: 4.0% | Health Left: 91.0%
+  -> Escort ID: 3 [EB] hit | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 3 [EB] | Damage: 6.0% | Health Left: 85.0%
+  -> Escort ID: 4 [EE] hit | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 4 [EE] | Damage: 4.0% | Health Left: 81.0%
+  -> Escort ID: 5 [EC] hit | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 5 [EC] | Damage: 7.0% | Health Left: 74.0%
+  -> Escort ID: 6 [EC] hit | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 6 [EC] | Damage: 7.0% | Health Left: 67.0%
+  -> Escort ID: 7 [ED] hit | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 7 [ED] | Damage: 5.0% | Health Left: 62.0%
+  -> Escort ID: 8 [EC] hit | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 8 [EC] | Damage: 7.0% | Health Left: 55.0%
+
+--- Step 2 [NORMAL] | Health: 55.0% ---
+  -> Escort ID: 1 [ED] hit | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 1 [ED] | Damage: 5.0% | Health Left: 50.0%
+  -> Escort ID: 2 [EE] hit | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 2 [EE] | Damage: 4.0% | Health Left: 46.0%
+  -> Escort ID: 3 [EB] hit | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 3 [EB] | Damage: 6.0% | Health Left: 40.0%
+  -> Escort ID: 4 [EE] hit | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 4 [EE] | Damage: 4.0% | Health Left: 36.0%
+  -> Escort ID: 5 [EC] hit | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 5 [EC] | Damage: 7.0% | Health Left: 29.0%
+  -> Escort ID: 6 [EC] hit | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 6 [EC] | Damage: 7.0% | Health Left: 22.0%
+  -> Escort ID: 7 [ED] hit | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 7 [ED] | Damage: 5.0% | Health Left: 17.0%
+  -> Escort ID: 8 [EC] hit | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 8 [EC] | Damage: 7.0% | Health Left: 10.0%
+
+--- Step 3 [NORMAL] | Health: 10.0% ---
+  -> Escort ID: 1 [ED] hit | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 1 [ED] | Damage: 5.0% | Health Left: 5.0%
+  -> Escort ID: 2 [EE] hit | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 2 [EE] | Damage: 4.0% | Health Left: 1.0%
+  -> Escort ID: 3 [EB] hit | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 3 [EB] | Damage: 6.0% | Health Left: 0.0%
+  -> Escort ID: 4 [EE] hit | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 4 [EE] | Damage: 4.0% | Health Left: 0.0%
+  -> Escort ID: 5 [EC] hit | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 5 [EC] | Damage: 7.0% | Health Left: 0.0%
+  -> Escort ID: 6 [EC] hit | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 6 [EC] | Damage: 7.0% | Health Left: 0.0%
+  -> Escort ID: 7 [ED] hit | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 7 [ED] | Damage: 5.0% | Health Left: 0.0%
+  -> Escort ID: 8 [EC] hit | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 8 [EC] | Damage: 7.0% | Health Left: 0.0%
+
+[CRITICAL]: Battleship SUNK due to cumulative damage at step 3!
+
+----------------------------------------
+Final Outcome: Battleship SUNK.

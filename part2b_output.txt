@@ -1,0 +1,58 @@
+========================================
+        PART 2-B SIMULATION LOG         
+========================================
+Battleship -> Type: m | Firing Interval (T_B^q): 2.00s | Jam Threshold: Step 2
+
+
+--- Step 1 (Time: 2.0s) Pos: (770.60, 201.20) [NORMAL] | Health: 100.0% ---
+  -> Escort ID: 1 [EA] hit at distance 95.63m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 1 [EA] | Damage: 8.0% | Health Left: 92.0%
+  -> Escort ID: 2 [ED] hit at distance 1006.21m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 2 [ED] | Damage: 5.0% | Health Left: 87.0%
+  -> Escort ID: 3 [EC] hit at distance 878.70m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 3 [EC] | Damage: 7.0% | Health Left: 80.0%
+  -> Escort ID: 4 [EC] hit at distance 977.31m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 4 [EC] | Damage: 7.0% | Health Left: 73.0%
+  -> Escort ID: 5 [ED] hit at distance 103.77m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 5 [ED] | Damage: 5.0% | Health Left: 68.0%
+  -> Escort ID: 6 [EC] hit at distance 136.60m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 6 [EC] | Damage: 7.0% | Health Left: 61.0%
+  -> Escort ID: 7 [EB] hit at distance 302.24m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 7 [EB] | Damage: 6.0% | Health Left: 55.0%
+
+--- Step 2 (Time: 4.0s) Pos: (571.90, 169.40) [NORMAL] | Health: 55.0% ---
+  -> Escort ID: 1 [EA] hit at distance 265.11m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 1 [EA] | Damage: 8.0% | Health Left: 47.0%
+  -> Escort ID: 2 [ED] hit at distance 926.59m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 2 [ED] | Damage: 5.0% | Health Left: 42.0%
+  -> Escort ID: 3 [EC] hit at distance 835.01m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 3 [EC] | Damage: 7.0% | Health Left: 35.0%
+  -> Escort ID: 4 [EC] hit at distance 865.89m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 4 [EC] | Damage: 7.0% | Health Left: 28.0%
+  -> Escort ID: 5 [ED] hit at distance 300.42m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 5 [ED] | Damage: 5.0% | Health Left: 23.0%
+  -> Escort ID: 6 [EC] hit at distance 112.59m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 6 [EC] | Damage: 7.0% | Health Left: 16.0%
+  -> Escort ID: 7 [EB] hit at distance 112.37m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 7 [EB] | Damage: 6.0% | Health Left: 10.0%
+
+--- Step 3 (Time: 6.0s) Pos: (276.60, 707.40) [JAMMED] | Health: 10.0% ---
+  -> Escort ID: 1 [EA] hit at distance 676.74m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 1 [EA] | Damage: 8.0% | Health Left: 2.0%
+  -> Escort ID: 2 [ED] hit at distance 313.94m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 2 [ED] | Damage: 5.0% | Health Left: 0.0%
+  -> Escort ID: 3 [EC] hit at distance 280.27m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 3 [EC] | Damage: 7.0% | Health Left: 0.0%
+  -> Escort ID: 4 [EC] hit at distance 274.70m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 4 [EC] | Damage: 7.0% | Health Left: 0.0%
+  -> Escort ID: 5 [ED] hit at distance 739.68m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 5 [ED] | Damage: 5.0% | Health Left: 0.0%
+  -> Escort ID: 6 [EC] hit at distance 713.50m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 6 [EC] | Damage: 7.0% | Health Left: 0.0%
+  -> Escort ID: 7 [EB] hit at distance 647.64m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 7 [EB] | Damage: 6.0% | Health Left: 0.0%
+
+[CRITICAL]: Battleship SUNK due to cumulative damage at step 3!
+
+----------------------------------------
+Final Outcome: Battleship SUNK.

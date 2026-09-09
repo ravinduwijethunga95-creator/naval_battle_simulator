@@ -1,0 +1,20 @@
+========================================
+    PART 1-C (1-A) CUMULATIVE LOG       
+========================================
+Battleship -> Type: m | Pos: (5809.00, 7905.00) | Initial Health: 100.00%
+
+  -> Escort ID: 1 [ED] hit at Distance 8916.62m | Damage: 25.0% | Health Left: 75.0%
+  -> Escort ID: 2 [ED] hit at Distance 9088.57m | Damage: 25.0% | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 2 [ED] | Damage: 5.0% | Health Left: 95.0%
+  -> Escort ID: 3 [ED] hit at Distance 9056.44m | Damage: 25.0% | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 3 [ED] | Damage: 5.0% | Health Left: 90.0%
+  -> Escort ID: 4 [EB] hit at Distance 9507.48m | Damage: 25.0% | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 4 [EB] | Damage: 6.0% | Health Left: 84.0%
+  -> Escort ID: 5 [EB] hit at Distance 9503.67m | Damage: 25.0% | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 5 [EB] | Damage: 6.0% | Health Left: 78.0%
+
+----------------------------------------
+Final Outcome:
+ - Total Escort ships destroyed: 0 / 5
+ - Battleship Final Health: 78.00%
+ - Status: Battleship SURVIVED.

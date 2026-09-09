@@ -1,7 +1,0 @@
-Battleship Type: s | Position: (450.00, 657.00)
-Escort Ships Initial Details:
-ID: 1 | Type: EB | Pos: (981.47, 715.50) | Range: 2870.06m | Impact Power: 0.06
-ID: 2 | Type: EE | Pos: (114.83, 642.29) | Range: 114.69m | Impact Power: 0.04
-ID: 3 | Type: EA | Pos: (1202.22, 706.97) | Range: 2539.95m | Impact Power: 0.08
-ID: 4 | Type: EB | Pos: (992.64, 512.41) | Range: 2096.39m | Impact Power: 0.06
-ID: 5 | Type: EB | Pos: (1453.97, 1285.86) | Range: 3339.16m | Impact Power: 0.06

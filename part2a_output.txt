@@ -1,0 +1,29 @@
+========================================
+        PART 2-A SIMULATION LOG         
+========================================
+Battleship -> Type: u | Pos: (8790.00, 9680.00) | Firing Interval (T_B^q): 2.00s
+
+Determined Attack Order (Sorted by Proximity/Threat):
+  Priority 1 -> Escort ID: 5 [EB] at Pos (253.70, 423.20)
+  Priority 2 -> Escort ID: 1 [EE] at Pos (366.80, 230.00)
+  Priority 3 -> Escort ID: 3 [EA] at Pos (499.30, 64.40)
+  Priority 4 -> Escort ID: 2 [EC] at Pos (503.80, 957.50)
+  Priority 5 -> Escort ID: 6 [EC] at Pos (512.10, 946.30)
+  Priority 6 -> Escort ID: 4 [EA] at Pos (734.90, 666.00)
+
+----------------------------------------
+  -> [Time 2.0s] Escort ID: 5 [EB] hit | Health Left: 75.0%
+  -> [Time 4.0s] Escort ID: 1 [EE] hit | Health Left: 75.0%
+  -> [Time 6.0s] Escort ID: 3 [EA] hit | Health Left: 75.0%
+     [HIT ON B] Counter-attacked by Escort ID: 3 | Health Left: 92.0%
+  -> [Time 8.0s] Escort ID: 2 [EC] hit | Health Left: 75.0%
+     [HIT ON B] Counter-attacked by Escort ID: 2 | Health Left: 85.0%
+  -> [Time 10.0s] Escort ID: 6 [EC] hit | Health Left: 75.0%
+  -> [Time 12.0s] Escort ID: 4 [EA] hit | Health Left: 75.0%
+     [HIT ON B] Counter-attacked by Escort ID: 4 | Health Left: 77.0%
+
+----------------------------------------
+Final Simulation Results:
+ - Total Time Elapsed: 12.0 seconds
+ - Escort Ships Destroyed: 0 / 6
+ - Battleship Final Health: 77.00%

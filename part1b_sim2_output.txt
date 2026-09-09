@@ -1,0 +1,10 @@
+========================================
+      PART 1-B SIMULATION 2 LOG         
+========================================
+
+--- Step 1 [NORMAL] ---
+  -> Escort ID: 1 [EC] DESTROYED at distance 746.83m
+  -> [CRITICAL]: Battleship SUNK by Escort ID: 1 [EC]!
+
+----------------------------------------
+Final Outcome: Battleship SUNK (Gun Jam Impact).

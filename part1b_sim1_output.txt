@@ -1,0 +1,10 @@
+========================================
+      PART 1-B SIMULATION 1 LOG         
+========================================
+
+--- Step 1: Pos (202.30, 739.20) ---
+  -> Escort ID: 1 [EA] DESTROYED at distance 515.28m
+  -> [CRITICAL]: Battleship SUNK by Escort ID: 1 [EA]!
+
+----------------------------------------
+Final Outcome: Battleship SUNK.

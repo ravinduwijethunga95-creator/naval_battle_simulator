@@ -1,0 +1,105 @@
+========================================
+ PART 1-C (1-B SIM 1) CUMULATIVE PATH   
+========================================
+Battleship -> Type: s | Pos: (9708.00, 8097.00) | Initial Health: 100.00%
+
+
+--- Step 1 ---
+  -> Escort ID: 1 [EB] hit at Dist 12076.30m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 1 [EB] | Health Left: 94.0%
+  -> Escort ID: 2 [EC] hit at Dist 11988.16m | Health Left: 75.0%
+  -> Escort ID: 3 [EC] hit at Dist 12021.94m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 3 [EC] | Health Left: 87.0%
+  -> Escort ID: 4 [EA] hit at Dist 11910.96m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 4 [EA] | Health Left: 79.0%
+  -> Escort ID: 5 [EA] hit at Dist 11431.76m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 5 [EA] | Health Left: 71.0%
+  -> Escort ID: 6 [ED] hit at Dist 12214.72m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 6 [ED] | Health Left: 66.0%
+  -> Escort ID: 7 [EC] hit at Dist 12180.75m | Health Left: 75.0%
+  -> Escort ID: 8 [EB] hit at Dist 12018.11m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 8 [EB] | Health Left: 60.0%
+  -> Escort ID: 9 [EC] hit at Dist 11996.17m | Health Left: 75.0%
+  -> [HIT ON B]: Hit by Escort ID: 9 [EC] | Health Left: 53.0%
+  -> Escort ID: 10 [EB] hit at Dist 11772.78m | Health Left: 75.0%
+
+--- Step 2 ---
+  -> Escort ID: 1 [EB] hit at Dist 12088.66m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 1 [EB] | Health Left: 47.0%
+  -> Escort ID: 2 [EC] hit at Dist 12000.17m | Health Left: 50.0%
+  -> Escort ID: 3 [EC] hit at Dist 12035.25m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 3 [EC] | Health Left: 40.0%
+  -> Escort ID: 4 [EA] hit at Dist 11923.11m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 4 [EA] | Health Left: 32.0%
+  -> Escort ID: 5 [EA] hit at Dist 11444.59m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 5 [EA] | Health Left: 24.0%
+  -> Escort ID: 6 [ED] hit at Dist 12227.76m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 6 [ED] | Health Left: 19.0%
+  -> Escort ID: 7 [EC] hit at Dist 12193.81m | Health Left: 50.0%
+  -> Escort ID: 8 [EB] hit at Dist 12030.21m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 8 [EB] | Health Left: 13.0%
+  -> Escort ID: 9 [EC] hit at Dist 12009.58m | Health Left: 50.0%
+  -> [HIT ON B]: Hit by Escort ID: 9 [EC] | Health Left: 6.0%
+  -> Escort ID: 10 [EB] hit at Dist 11785.55m | Health Left: 50.0%
+
+--- Step 3 ---
+  -> Escort ID: 1 [EB] hit at Dist 12107.25m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 1 [EB] | Health Left: 0.0%
+  -> Escort ID: 2 [EC] hit at Dist 12018.22m | Health Left: 25.0%
+  -> Escort ID: 3 [EC] hit at Dist 12055.25m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 3 [EC] | Health Left: 0.0%
+  -> Escort ID: 4 [EA] hit at Dist 11941.38m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 4 [EA] | Health Left: 0.0%
+  -> Escort ID: 5 [EA] hit at Dist 11463.88m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 5 [EA] | Health Left: 0.0%
+  -> Escort ID: 6 [ED] hit at Dist 12247.35m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 6 [ED] | Health Left: 0.0%
+  -> Escort ID: 7 [EC] hit at Dist 12213.45m | Health Left: 25.0%
+  -> Escort ID: 8 [EB] hit at Dist 12048.39m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 8 [EB] | Health Left: 0.0%
+  -> Escort ID: 9 [EC] hit at Dist 12029.74m | Health Left: 25.0%
+  -> [HIT ON B]: Hit by Escort ID: 9 [EC] | Health Left: 0.0%
+  -> Escort ID: 10 [EB] hit at Dist 11804.73m | Health Left: 25.0%
+
+--- Step 4 ---
+  -> Escort ID: 1 [EB] hit at Dist 12132.09m | Health Left: 0.0%
+     [DESTROYED]: Escort ID: 1 [EB]
+  -> [HIT ON B]: Hit by Escort ID: 1 [EB] | Health Left: 0.0%
+  -> Escort ID: 2 [EC] hit at Dist 12042.36m | Health Left: 0.0%
+     [DESTROYED]: Escort ID: 2 [EC]
+  -> Escort ID: 3 [EC] hit at Dist 12081.99m | Health Left: 0.0%
+     [DESTROYED]: Escort ID: 3 [EC]
+  -> [HIT ON B]: Hit by Escort ID: 3 [EC] | Health Left: 0.0%
+  -> Escort ID: 4 [EA] hit at Dist 11965.81m | Health Left: 0.0%
+     [DESTROYED]: Escort ID: 4 [EA]
+  -> [HIT ON B]: Hit by Escort ID: 4 [EA] | Health Left: 0.0%
+  -> Escort ID: 5 [EA] hit at Dist 11489.67m | Health Left: 0.0%
+     [DESTROYED]: Escort ID: 5 [EA]
+  -> [HIT ON B]: Hit by Escort ID: 5 [EA] | Health Left: 0.0%
+  -> Escort ID: 6 [ED] hit at Dist 12273.55m | Health Left: 0.0%
+     [DESTROYED]: Escort ID: 6 [ED]
+  -> [HIT ON B]: Hit by Escort ID: 6 [ED] | Health Left: 0.0%
+  -> Escort ID: 7 [EC] hit at Dist 12239.69m | Health Left: 0.0%
+     [DESTROYED]: Escort ID: 7 [EC]
+  -> Escort ID: 8 [EB] hit at Dist 12072.71m | Health Left: 0.0%
+     [DESTROYED]: Escort ID: 8 [EB]
+  -> [HIT ON B]: Hit by Escort ID: 8 [EB] | Health Left: 0.0%
+  -> Escort ID: 9 [EC] hit at Dist 12032.84m | Health Left: 0.0%
+     [DESTROYED]: Escort ID: 9 [EC]
+  -> [HIT ON B]: Hit by Escort ID: 9 [EC] | Health Left: 0.0%
+  -> Escort ID: 10 [EB] hit at Dist 11830.38m | Health Left: 0.0%
+     [DESTROYED]: Escort ID: 10 [EB]
+
+--- Step 5 ---
+  -> [HIT ON B]: Hit by Escort ID: 1 [EB] | Health Left: 0.0%
+  -> [HIT ON B]: Hit by Escort ID: 3 [EC] | Health Left: 0.0%
+  -> [HIT ON B]: Hit by Escort ID: 4 [EA] | Health Left: 0.0%
+  -> [HIT ON B]: Hit by Escort ID: 5 [EA] | Health Left: 0.0%
+  -> [HIT ON B]: Hit by Escort ID: 6 [ED] | Health Left: 0.0%
+  -> [HIT ON B]: Hit by Escort ID: 8 [EB] | Health Left: 0.0%
+  -> [HIT ON B]: Hit by Escort ID: 9 [EC] | Health Left: 0.0%
+
+----------------------------------------
+Final Outcome:
+ - Total Escort ships destroyed: 10 / 10
+ - Battleship Final Health: 0.00%
