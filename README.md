@@ -2,6 +2,11 @@
 
 A comprehensive command-line tactical naval combat simulator developed in C. This project simulates tactical interactions, cumulative damage mechanics, path-based movement, and gun-jam constraints between a Battleship and an escort fleet.
 
+## GitHub Repository
+
+You can access the full source code and commit history of this project via the official repository:
+- **Repository URL:** [https://github.com/ravinduwijethunga95-creator/naval_battle_simulator](https://github.com/ravinduwijethunga95-creator/naval_battle_simulator)
+
 ## Project Structure
 
 - `main.c`: Entry point providing an interactive menu system for all simulation modules.
