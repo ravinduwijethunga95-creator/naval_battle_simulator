@@ -29,6 +29,7 @@ int main() {
                 printf("6. Part 1-C (Sim 2 Cumulative Gun Jam)\n");
                 printf("7. Part 2-A (Attack Order & Firing Interval)\n");
                 printf("8. Part 2-B (Dynamic Path & Timing)\n");
+		printf("9. Part 2-C Simulation (Impact Power Degradation)\n");
                 printf("Enter choice: ");
                 scanf("%d", &sub_choice);
 
@@ -41,6 +42,7 @@ int main() {
                     case 6: runPart1C_1B_Sim2(); break;
                     case 7: runPart2A(); break;
                     case 8: runPart2B(); break;
+		    case 9: runPart2C(); break;
                     default: printf("Invalid sub-choice!\n");
                 }
                 break;
@@ -57,6 +59,7 @@ int main() {
                 printf(" Part 1-C3: Gun Jam simulation with Cumulative Health Damage.\n");
                 printf(" Part 2-A : Attack Order sorting & Firing Interval (T_B^q) delays.\n");
                 printf(" Part 2-B : Dynamic path movement, gun jams, and timing coordination.\n");
+		printf("Part 2-C : Impact Power Degradation Simulation with Velocities.\n");
                 printf("-----------------------------------------------------------------\n");
                 printf(" Note: All outputs are automatically logged into separate text files.\n");
                 printf("=================================================================\n");

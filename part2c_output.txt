@@ -1,0 +1,65 @@
+==================================================
+          PART 2-C SIMULATION LOG (DEGRADATION)   
+==================================================
+Battleship -> Type: m | Gamma: 1.0000 | Initial IP: 1.00
+
+
+--- Step 1 (Time: 2.0s) Pos: (979.20, 599.60) | B_IP: 0.3679 [NORMAL] ---
+  -> Escort ID: 2 [EB] hit | Applied IP: 0.3679 | Health Left: 63.2%
+  -> Escort ID: 3 [EE] hit | Applied IP: 0.3679 | Health Left: 63.2%
+  -> Escort ID: 4 [EE] hit | Applied IP: 0.3679 | Health Left: 63.2%
+  -> Escort ID: 5 [ED] hit | Applied IP: 0.3679 | Health Left: 63.2%
+  -> Escort ID: 6 [EC] hit | Applied IP: 0.3679 | Health Left: 63.2%
+  -> [HIT ON B]: Hit by Escort ID: 6 [EC] | Current IP: 0.0666 | Health Left: 93.3%
+  -> Escort ID: 7 [EC] hit | Applied IP: 0.3679 | Health Left: 63.2%
+  -> [HIT ON B]: Hit by Escort ID: 7 [EC] | Current IP: 0.0666 | Health Left: 86.7%
+  -> Escort ID: 8 [EB] hit | Applied IP: 0.3679 | Health Left: 63.2%
+  -> [HIT ON B]: Hit by Escort ID: 8 [EB] | Current IP: 0.0571 | Health Left: 81.0%
+  -> Escort ID: 9 [EC] hit | Applied IP: 0.3679 | Health Left: 63.2%
+  -> [HIT ON B]: Hit by Escort ID: 9 [EC] | Current IP: 0.0666 | Health Left: 74.3%
+
+--- Step 2 (Time: 4.0s) Pos: (643.00, 309.80) | B_IP: 0.1353 [NORMAL] ---
+  -> Escort ID: 2 [EB] hit | Applied IP: 0.1353 | Health Left: 49.7%
+  -> [HIT ON B]: Hit by Escort ID: 2 [EB] | Current IP: 0.0571 | Health Left: 68.6%
+  -> Escort ID: 3 [EE] hit | Applied IP: 0.1353 | Health Left: 49.7%
+  -> Escort ID: 4 [EE] hit | Applied IP: 0.1353 | Health Left: 49.7%
+  -> Escort ID: 5 [ED] hit | Applied IP: 0.1353 | Health Left: 49.7%
+  -> [HIT ON B]: Hit by Escort ID: 5 [ED] | Current IP: 0.0476 | Health Left: 63.9%
+  -> Escort ID: 6 [EC] hit | Applied IP: 0.1353 | Health Left: 49.7%
+  -> [HIT ON B]: Hit by Escort ID: 6 [EC] | Current IP: 0.0633 | Health Left: 57.5%
+  -> Escort ID: 7 [EC] hit | Applied IP: 0.1353 | Health Left: 49.7%
+  -> [HIT ON B]: Hit by Escort ID: 7 [EC] | Current IP: 0.0633 | Health Left: 51.2%
+  -> Escort ID: 8 [EB] hit | Applied IP: 0.1353 | Health Left: 49.7%
+  -> Escort ID: 9 [EC] hit | Applied IP: 0.1353 | Health Left: 49.7%
+  -> [HIT ON B]: Hit by Escort ID: 9 [EC] | Current IP: 0.0633 | Health Left: 44.9%
+
+--- Step 3 (Time: 6.0s) Pos: (967.40, 325.60) | B_IP: 0.0498 [JAMMED] ---
+  -> Escort ID: 5 [ED] hit | Applied IP: 0.0498 | Health Left: 44.7%
+  -> Escort ID: 6 [EC] hit | Applied IP: 0.0498 | Health Left: 44.7%
+  -> [HIT ON B]: Hit by Escort ID: 6 [EC] | Current IP: 0.0602 | Health Left: 38.8%
+  -> [HIT ON B]: Hit by Escort ID: 7 [EC] | Current IP: 0.0602 | Health Left: 32.8%
+  -> Escort ID: 9 [EC] hit | Applied IP: 0.0498 | Health Left: 44.7%
+  -> [HIT ON B]: Hit by Escort ID: 9 [EC] | Current IP: 0.0602 | Health Left: 26.8%
+
+--- Step 4 (Time: 8.0s) Pos: (891.40, 875.80) | B_IP: 0.0183 [JAMMED] ---
+  -> Escort ID: 6 [EC] hit | Applied IP: 0.0183 | Health Left: 42.9%
+  -> [HIT ON B]: Hit by Escort ID: 6 [EC] | Current IP: 0.0573 | Health Left: 21.0%
+  -> Escort ID: 7 [EC] hit | Applied IP: 0.0183 | Health Left: 47.8%
+  -> [HIT ON B]: Hit by Escort ID: 7 [EC] | Current IP: 0.0573 | Health Left: 15.3%
+  -> Escort ID: 8 [EB] hit | Applied IP: 0.0183 | Health Left: 47.8%
+  -> [HIT ON B]: Hit by Escort ID: 8 [EB] | Current IP: 0.0543 | Health Left: 9.9%
+
+--- Step 5 (Time: 10.0s) Pos: (815.10, 911.00) | B_IP: 0.0067 [JAMMED] ---
+  -> Escort ID: 4 [EE] hit | Applied IP: 0.0067 | Health Left: 49.0%
+  -> [HIT ON B]: Hit by Escort ID: 4 [EE] | Current IP: 0.0380 | Health Left: 6.1%
+  -> Escort ID: 6 [EC] hit | Applied IP: 0.0067 | Health Left: 42.2%
+  -> [HIT ON B]: Hit by Escort ID: 6 [EC] | Current IP: 0.0545 | Health Left: 0.6%
+  -> Escort ID: 7 [EC] hit | Applied IP: 0.0067 | Health Left: 47.2%
+  -> [HIT ON B]: Hit by Escort ID: 7 [EC] | Current IP: 0.0545 | Health Left: 0.0%
+  -> Escort ID: 8 [EB] hit | Applied IP: 0.0067 | Health Left: 47.2%
+  -> [HIT ON B]: Hit by Escort ID: 8 [EB] | Current IP: 0.0516 | Health Left: 0.0%
+
+[CRITICAL]: Battleship SUNK at step 5!
+
+--------------------------------------------------
+Final Outcome: Battleship SUNK.

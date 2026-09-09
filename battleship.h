@@ -11,6 +11,10 @@ struct Battleship {
     float velocity;
     float health;
     float firingInterval; // Part 2-A : T_B^q (Reload / Firing time gap)
+    int firingCount;//part 2-c
+    float gamma;
+    float initialImpactPower;
+    float currentImpactPower;
 };
 
 struct EscortShip {
@@ -24,6 +28,10 @@ struct EscortShip {
     float health;
     int isDestroyed;
     int active;
+    int firingCount;// part 2-c
+    float gamma;
+    float initialImpactPower;
+    float currentImpactPower;
 };
 
 // Shared Helper Functions
@@ -41,5 +49,6 @@ void runPart1C_1B_Sim2();
 // Part 2-A Function
 void runPart2A();
 void runPart2B();
+void runPart2C();
 
 #endif
