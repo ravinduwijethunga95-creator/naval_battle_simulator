@@ -11,7 +11,7 @@ float calculateDistance(float x1, float y1, float x2, float y2) {
 // Escort ships initializing and ID generating function (ID 1 to N)
 void initializeEscortShips(struct EscortShip ships[], int n, float b_max_velocity) {
     for (int i = 0; i < n; i++) {
-        ships[i].id = i + 1; // ID එක 1 සිට N දක්වා automatically හැදේ
+        ships[i].id = i + 1; //automatically generate id for 1 to n
         ships[i].x = (rand() % 10000) / 10.0;
         ships[i].y = (rand() % 10000) / 10.0;
 
